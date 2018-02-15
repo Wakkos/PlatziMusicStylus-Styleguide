@@ -19,6 +19,19 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/stylus\/_variables.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/stylus\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
 	"\/stylus\/styles.styl": {
 		"aP": 0,
 		"bl": 0,

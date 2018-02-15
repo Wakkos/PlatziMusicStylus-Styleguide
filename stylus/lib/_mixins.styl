@@ -19,4 +19,15 @@ mixin-max-width(width = page-max-width)
 
 
 mixin-padding-small(a)
-    a - padding
+    a + padding
+
+
+tone(dark = true)
+  if dark
+    text-color: white
+    background: black
+  else
+    text-color: black
+    background: white;
+.div
+  tone(false)

@@ -1,36 +1,62 @@
-.psudoelement {
-  font-size: 17px;
-  width: 300px;
-}
-.psudoelement:before {
-  content: "hola";
-}
-.ie-8 .psudoelement:before {
-  content: "ciao";
-}
-.ie-8 .psudoelement img {
-  margin-bottom: 0;
-}
-body,
-.redtext {
-  color: #f00;
-  text-decoration: underline;
-}
-body .primerhijo,
-.redtext .primerhijo {
-  margin-bottom: 24px;
-  font-size: 14px;
-}
 .btn {
-  background-color: #ffc0cb;
-  border-radius: 2px;
+  display: inline-block;
+  width: auto;
+  line-height: 2.5;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  background-color: #ea83ee;
+  cursor: pointer;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 2.2em;
+  padding-left: 2.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  border-radius: 0;
+  transition: all 0.2s ease-in;
+  border: none;
 }
-.btn--alert {
-  background-color: #f00;
+.btn:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ea83ee;
+  cursor: pointer;
 }
-.btn--alert {
-  background-color: #f00;
+.btn:active,
+.btn:focus {
+  outline: none;
 }
-p {
-  font-size: 17px;
+.btn.btn--secondary {
+  background-color: #fff;
+  color: #ea83ee;
+}
+.btn.btn--secondary:hover {
+  background-color: #ea83ee;
+  color: #fff;
+}
+html {
+  background: #fff;
+  font-size: 87.5%;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: transparent;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5;
+  color: #000;
 }

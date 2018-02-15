@@ -104,6 +104,19 @@
 		"oS": 0,
 		"rrU": 0
 		},
+	"\/stylus\/layout\/_blocks.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/stylus\/layout\/_blocks.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
 	"\/stylus\/layout\/_site.styl": {
 		"aP": 0,
 		"bl": 0,
